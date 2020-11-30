@@ -102,6 +102,12 @@ a{
   line-height: 1.5;
 }
 
+.ysr{
+  border-radius: 50%;
+  width: 30%;
+  margin: auto;
+}
+
 .workcontent{
   text-align: left;
 }
