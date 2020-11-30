@@ -1,0 +1,141 @@
+/* fonts
+font-family: 'Inconsolata', monospace;
+font-family: 'Sacramento', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+
+h1{
+  margin: 0 auto 20px auto;
+  font-family: 'Inconsolata', monospace;
+}
+
+h2{
+  margin-top: 15px;
+}
+
+h3{
+  color: white;
+}
+
+table{
+  padding: 5px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul{
+  text-align: left;
+}
+
+a{
+  color: #92C0DD;
+}
+
+/* class styles */
+/* header */
+
+.header{
+  position: fixed;
+  background: transparent;
+  z-index: 1;
+  width: 100%;
+}
+
+.orca{
+  position: absolute;
+  right: 20px;
+}
+
+/* top container */
+
+.top-container{
+  background: linear-gradient(#a4c0fc 0%, #9ec9ee 50%, #d0e2ff 100%);
+  color: #1f4157;
+  text-align: center;
+  padding-top: 120px;
+  position: relative;
+}
+
+.top-cloud{
+  position: absolute;
+  left: 22%;
+  height: 130px;
+  top: 110px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  right: 18%;
+  top: 240px;
+  height: 145px;
+}
+
+.intro-text{
+  font-size: 200%;
+  z-index: -1;
+  font-weight: 300;
+}
+
+.intro-images{
+  z-index: 0;
+}
+
+.intro-detail{
+  font-family: 'Sacramento', cursive;
+  font-weight: normal;
+}
+
+/* middle container */
+.middle-container{
+  background: linear-gradient(#92C0DD 0%, #3f72af 35%, #1f4157 100%);
+  padding: 50px 25%;
+  color: #d0e2ff;
+  line-height: 1.5;
+}
+
+.workcontent{
+  text-align: left;
+}
+
+.ds-projects{
+  color: #d0e2ff;
+  font-size: small;
+  margin: 20px auto 100px;
+}
+
+.dsicon{
+  float: left;
+  width: 25%;
+  margin-right: 10px;
+}
+
+.sghicon{
+  float: left;
+  width: 25%;
+  margin-right: 10px;
+}
+
+.skill-row{
+  margin: 0 auto 20px auto;
+}
+
+/* bottom container */
+.bottom-container{
+  background-color: #1f4157;
+  color: #3f72af;
+  padding-bottom: 20px;
+  font-size: small;
+}
+
+.footer-link{
+  padding: 5px;
+}
