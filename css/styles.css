@@ -38,6 +38,11 @@ ul{
 
 a{
   color: #92C0DD;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
 }
 
 /* class styles */
