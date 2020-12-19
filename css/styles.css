@@ -86,12 +86,14 @@ a:hover{
 
 .intro-text{
   font-size: 200%;
-  z-index: -1;
+  position: relative;
+  z-index: 3;
   font-weight: 300;
 }
 
 .intro-images{
   z-index: 0;
+  height: 385px;
 }
 
 .intro-detail{
