@@ -1,154 +1,119 @@
-/* fonts
-font-family: 'Inconsolata', monospace;
+/*
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poiret One', cursive;
+font-family: 'Raleway', sans-serif;
 font-family: 'Sacramento', cursive;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+
 */
 
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  line-height: 2;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1{
-  margin: 0 auto 20px auto;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
 }
 
-h2{
-  margin-top: 15px;
+b{
+  color: #6B98B0;
 }
 
-h3{
+/* title section */
+#title{
+  background-color: #FFF5E8;
+}
+
+.titleimg{
+  background-image: url("../images/Rainier.jpg");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.titletext{
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
 }
 
-table{
-  padding: 5px;
-  margin: 0 auto;
-  text-align: left;
+.titledescription{
+  line-height: 1.4;
+  text-align: center;
+  padding: 3%;
+  font-family: 'Poiret One', cursive;
 }
 
-ul{
-  text-align: left;
+/* intro section */
+#intro{
+  background-color: #FFF5E8;
+  padding: 5% 20% 10%;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  color: #8C7B64;
 }
 
-a{
-  color: #92C0DD;
+/* .ysrContainer{
+  margin-right: 50px;
+} */
+
+.ysr{
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* portfolio section */
+
+#portfolio{
+  padding: 5% 0;
+  background-color: #FDE8CD;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+
+}
+
+.adphrase{
+  margin-bottom: 3%;
+  font-weight: bold;
+  color: black;
+}
+
+.a:hover{
   text-decoration: none;
 }
 
-a:hover{
-  color: white;
+.carousel-item{
+  padding: 0 20%;
 }
 
-/* class styles */
-/* header */
-
-.header{
-  position: fixed;
-  background: transparent;
-  z-index: 1;
-  width: 100%;
+.portfolioImage{
+  border-radius: 10px;
+  border: 2px solid #6B98B0;
 }
 
-.orca{
-  position: absolute;
-  right: 20px;
-}
-
-/* top container */
-
-.top-container{
-  background: linear-gradient(#a4c0fc 0%, #9ec9ee 50%, #d0e2ff 100%);
-  color: #1f4157;
+/* footer section */
+#footer{
   text-align: center;
-  padding-top: 120px;
-  position: relative;
+  padding-top: 15px;
+  font-size: 0.8em;
 }
 
-.top-cloud{
-  position: absolute;
-  left: 22%;
-  height: 130px;
-  top: 110px;
+.footericon{
+  height: 35px;
+  margin: 10px 10px 0;
 }
 
-.bottom-cloud{
-  position: absolute;
-  right: 18%;
-  top: 240px;
-  height: 145px;
-}
-
-.intro-text{
-  font-size: 200%;
-  position: relative;
-  z-index: 3;
-  font-weight: 300;
-}
-
-.intro-images{
-  z-index: 0;
-  height: 385px;
-}
-
-.intro-detail{
-  font-family: 'Sacramento', cursive;
-  font-weight: normal;
-}
-
-/* middle container */
-.middle-container{
-  background: linear-gradient(#92C0DD 0%, #3f72af 35%, #1f4157 100%);
-  padding: 50px 25%;
-  color: #d0e2ff;
-  line-height: 1.5;
-}
-
-.ysr{
-  border-radius: 50%;
-  width: 30%;
-  margin: auto;
-}
-
-.workcontent{
-  text-align: left;
-}
-
-.ds-projects{
-  color: #d0e2ff;
-  font-size: small;
-  margin: 20px auto 100px;
-}
-
-.dsicon{
-  float: left;
-  width: 25%;
-  margin-right: 10px;
-}
-
-.sghicon{
-  float: left;
-  width: 25%;
-  margin-right: 10px;
-}
-
-.skill-row{
-  margin: 0 auto 20px auto;
-}
-
-/* bottom container */
-.bottom-container{
-  background-color: #1f4157;
-  color: #3f72af;
-  padding-bottom: 20px;
-  font-size: small;
-}
-
-.footer-link{
-  padding: 5px;
+.freepikStatement{
+  color: black;
 }
