@@ -89,10 +89,6 @@ b{
   color: black;
 }
 
-.a:hover{
-  text-decoration: none;
-}
-
 .carousel-item{
   padding: 0 20%;
 }
@@ -100,6 +96,12 @@ b{
 .portfolioImage{
   border-radius: 10px;
   border: 2px solid #6B98B0;
+}
+
+.portfolioControl{
+  color: #8C7B64;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* footer section */
