@@ -122,7 +122,17 @@ b{
   color: black;
 }
 
+@media (max-width: 1600px) {
+  #intro{
+    font-size: 1rem;
+    padding: 5% 20% 10%;
+  }
+}
+
 @media (max-width: 991px) {
+  h1{
+    font-size: 1.5rem;
+  }
   .titledescription{
     font-size: 1.2rem;
   }
@@ -134,15 +144,20 @@ b{
 
   #intro{
     font-size: 1rem;
+    padding: 5% 10% 10%;
   }
 
   .adphrase{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
   }
 
   .portfolioControl{
     font-size: 1rem;
   }
 
+  #portfolio{
+    padding: 15% 0;
+  }
 
 }
